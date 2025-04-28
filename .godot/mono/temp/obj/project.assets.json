@@ -20,19 +20,24 @@
             "related": ".xml"
           }
         }
-      },
-      "GodotSharpEditor/4.4.1": {
+      }
+    },
+    "net8.0/win-x64": {
+      "Godot.SourceGenerators/4.4.1": {
         "type": "package",
-        "dependencies": {
-          "GodotSharp": "4.4.1"
-        },
+        "build": {
+          "build/Godot.SourceGenerators.props": {}
+        }
+      },
+      "GodotSharp/4.4.1": {
+        "type": "package",
         "compile": {
-          "lib/net8.0/GodotSharpEditor.dll": {
+          "lib/net8.0/GodotSharp.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/GodotSharpEditor.dll": {
+          "lib/net8.0/GodotSharp.dll": {
             "related": ".xml"
           }
         }
@@ -65,26 +70,12 @@
         "lib/net8.0/GodotSharp.dll",
         "lib/net8.0/GodotSharp.xml"
       ]
-    },
-    "GodotSharpEditor/4.4.1": {
-      "sha512": "cc3nA24r/sjW8KxrNqfSQk4CQMQYcg/kYk5935R88IhGBdRuTH4miaBXPlzR/td5GR8i1oGtCMWyW8axpQ0DxA==",
-      "type": "package",
-      "path": "godotsharpeditor/4.4.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "godotsharpeditor.4.4.1.nupkg.sha512",
-        "godotsharpeditor.nuspec",
-        "lib/net8.0/GodotSharpEditor.dll",
-        "lib/net8.0/GodotSharpEditor.xml"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Godot.SourceGenerators >= 4.4.1",
-      "GodotSharp >= 4.4.1",
-      "GodotSharpEditor >= 4.4.1"
+      "GodotSharp >= 4.4.1"
     ]
   },
   "packageFolders": {
@@ -94,11 +85,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\USERS\\M1993\\DESKTOP\\PROGRAMOWANIE\\GODOT\\01_PIXELS\\01_Pixels.csproj",
+      "projectUniqueName": "C:\\Users\\m1993\\Desktop\\Programowanie\\Godot\\01_Pixels\\01_Pixels.csproj",
       "projectName": "01_Pixels",
-      "projectPath": "C:\\USERS\\M1993\\DESKTOP\\PROGRAMOWANIE\\GODOT\\01_PIXELS\\01_Pixels.csproj",
+      "projectPath": "C:\\Users\\m1993\\Desktop\\Programowanie\\Godot\\01_Pixels\\01_Pixels.csproj",
       "packagesPath": "C:\\Users\\m1993\\.nuget\\packages\\",
-      "outputPath": "C:\\USERS\\M1993\\DESKTOP\\PROGRAMOWANIE\\GODOT\\01_PIXELS\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "C:\\Users\\m1993\\Desktop\\Programowanie\\Godot\\01_Pixels\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -145,10 +136,6 @@
           "GodotSharp": {
             "target": "Package",
             "version": "[4.4.1, )"
-          },
-          "GodotSharpEditor": {
-            "target": "Package",
-            "version": "[4.4.1, )"
           }
         },
         "imports": [
@@ -162,12 +149,31 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[8.0.15, 8.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[8.0.15, 8.0.15]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[8.0.15, 8.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
       }
     }
   }

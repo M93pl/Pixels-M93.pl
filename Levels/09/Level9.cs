@@ -58,7 +58,7 @@ public partial class Level9 : Node2D
         }
         else if (collider == "CharacterBody2D_exit" || colliderEvent == "CharacterBody2D_exit")
         {
-            LevelData.Data.levelNext = "9";
+            LevelData.Data.levelNext = "1";
             GetTree().ChangeSceneToFile("res://GameWin.tscn");
         }
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://ddfjyo0j4ncup"]
+[gd_scene load_steps=19 format=3 uid="uid://ddfjyo0j4ncup"]
 
 [ext_resource type="Script" uid="uid://co2ad5mnd34x2" path="res://Levels/09/Level9.cs" id="1_dcp6d"]
 [ext_resource type="Texture2D" uid="uid://gexl32gjfne5" path="res://Textures/background.png" id="2_mlbie"]
@@ -24,6 +24,13 @@ size = Vector2(34, 34)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hbc2u"]
 
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_oe8jf"]
+vertices = PackedVector2Array(419, 568, 473, 568, 114, 570, 448, 396, 486, 396, 221, 413, 270.469, 305.602, 358.461, 206.656, 272.406, 329.539, 389.594, 228.461, 486, 246, 448, 246, 603.633, -2.89063, 583.359, 612.711, 558, 474, 558, 436, 434, 301, 434, 263, 379, 376, 341, 376, 0.9375, 597.281, 76, 570, 408, 436, 137.531, 226.398, 243.602, 332.469, 94, 333, 94, 295, 115, 233, 445.531, 87.6563, 473, 514, 408, 474, 435, 514, 379, 322, 380, 301, 380, 263, 303.539, 351.344, 61, 233, 40, 295, 221, 359, 115, 195, 164.398, 199.531, 371, 469, 371, 431, 182, 438, 317, 431, 317, 463, 205, 463, 114, 516, 419, 530, 285, 190, 285, 174, 301, 174, 78, 349, 78, 333, 355, 501, 355, 469, 435, 530, 341, 322, 407.344, 49.4688, -1.9375, 2.89063, 380.469, 76.3438, 205, 501, 32, 438, 76, 516, 32, 400, 301, 136, 167, 359, 167, 397, 418.656, 114.531, 178.531, 78.3438, 247, 136, 140.344, 116.531, 247, 190, 151.656, 51.4688, 113.469, 89.6563, 183, 413, 182, 400, 183, 397, 40, 349, 61, 195)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2), PackedInt32Array(3, 4, 5), PackedInt32Array(6, 7, 8), PackedInt32Array(9, 10, 11), PackedInt32Array(12, 13, 14), PackedInt32Array(12, 14, 15), PackedInt32Array(11, 16, 17), PackedInt32Array(16, 11, 3), PackedInt32Array(18, 3, 5), PackedInt32Array(19, 18, 5), PackedInt32Array(1, 13, 20), PackedInt32Array(2, 1, 20), PackedInt32Array(21, 2, 20), PackedInt32Array(4, 15, 22), PackedInt32Array(23, 24, 25), PackedInt32Array(23, 25, 26), PackedInt32Array(27, 23, 26), PackedInt32Array(24, 6, 8), PackedInt32Array(28, 12, 15), PackedInt32Array(14, 13, 1), PackedInt32Array(14, 1, 29), PackedInt32Array(30, 14, 29), PackedInt32Array(30, 29, 31), PackedInt32Array(16, 3, 18), PackedInt32Array(16, 18, 32), PackedInt32Array(33, 16, 32), PackedInt32Array(9, 11, 17), PackedInt32Array(9, 17, 34), PackedInt32Array(35, 9, 34), PackedInt32Array(36, 27, 26), PackedInt32Array(36, 26, 37), PackedInt32Array(19, 5, 38), PackedInt32Array(23, 27, 39), PackedInt32Array(40, 23, 39), PackedInt32Array(22, 30, 41), PackedInt32Array(22, 41, 42), PackedInt32Array(7, 6, 40), PackedInt32Array(43, 44, 45), PackedInt32Array(43, 45, 46), PackedInt32Array(0, 2, 47), PackedInt32Array(48, 0, 47), PackedInt32Array(49, 50, 51), PackedInt32Array(52, 53, 25), PackedInt32Array(54, 55, 41), PackedInt32Array(31, 56, 48), PackedInt32Array(33, 32, 57), PackedInt32Array(30, 31, 48), PackedInt32Array(12, 28, 58), PackedInt32Array(59, 12, 58), PackedInt32Array(59, 58, 60), PackedInt32Array(41, 30, 48), PackedInt32Array(54, 41, 48), PackedInt32Array(54, 48, 47), PackedInt32Array(61, 54, 47), PackedInt32Array(46, 61, 47), PackedInt32Array(43, 46, 47), PackedInt32Array(62, 43, 47), PackedInt32Array(62, 47, 63), PackedInt32Array(63, 21, 20), PackedInt32Array(62, 63, 20), PackedInt32Array(62, 20, 59), PackedInt32Array(64, 62, 59), PackedInt32Array(10, 51, 65), PackedInt32Array(34, 33, 57), PackedInt32Array(35, 34, 57), PackedInt32Array(35, 57, 19), PackedInt32Array(35, 19, 38), PackedInt32Array(8, 35, 38), PackedInt32Array(24, 8, 38), PackedInt32Array(25, 24, 38), PackedInt32Array(25, 38, 66), PackedInt32Array(25, 66, 67), PackedInt32Array(52, 25, 67), PackedInt32Array(15, 4, 10), PackedInt32Array(28, 15, 10), PackedInt32Array(68, 28, 10), PackedInt32Array(68, 10, 65), PackedInt32Array(60, 68, 65), PackedInt32Array(69, 60, 65), PackedInt32Array(69, 65, 70), PackedInt32Array(71, 69, 70), PackedInt32Array(71, 70, 72), PackedInt32Array(60, 69, 73), PackedInt32Array(59, 60, 73), PackedInt32Array(59, 73, 74), PackedInt32Array(4, 22, 42), PackedInt32Array(5, 4, 42), PackedInt32Array(5, 42, 44), PackedInt32Array(5, 44, 43), PackedInt32Array(75, 5, 43), PackedInt32Array(75, 43, 76), PackedInt32Array(77, 75, 76), PackedInt32Array(67, 77, 76), PackedInt32Array(67, 76, 64), PackedInt32Array(52, 67, 64), PackedInt32Array(78, 52, 64), PackedInt32Array(78, 64, 59), PackedInt32Array(37, 78, 59), PackedInt32Array(36, 37, 59), PackedInt32Array(79, 36, 59), PackedInt32Array(79, 59, 74), PackedInt32Array(39, 79, 74), PackedInt32Array(39, 74, 71), PackedInt32Array(39, 71, 72), PackedInt32Array(40, 39, 72), PackedInt32Array(7, 40, 72), PackedInt32Array(7, 72, 49), PackedInt32Array(7, 49, 51), PackedInt32Array(7, 51, 10), PackedInt32Array(7, 10, 9)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(615, -14, 594, 624, -10, 608, -13, -8)])
+sample_partition_type = 1
+agent_radius = 11.0
+
 [node name="GameScene2" type="Node2D"]
 script = ExtResource("1_dcp6d")
 
@@ -33,6 +40,8 @@ texture = ExtResource("2_mlbie")
 
 [node name="CharacterBody2D_player" type="CharacterBody2D" parent="."]
 position = Vector2(300, 20)
+collision_layer = 3
+collision_mask = 3
 script = ExtResource("3_o5jjl")
 
 [node name="CollisionShape2D_player" type="CollisionShape2D" parent="CharacterBody2D_player"]
@@ -47,7 +56,7 @@ texture = ExtResource("4_5py54")
 shape = SubResource("RectangleShape2D_pv7ak")
 
 [node name="CharacterBody2D_exit" type="CharacterBody2D" parent="."]
-position = Vector2(300, 350)
+position = Vector2(283, 539)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D_exit"]
 shape = SubResource("RectangleShape2D_s3sxq")
@@ -71,7 +80,7 @@ width = 1.0
 default_color = Color(0.92549, 1, 0.792157, 1)
 
 [node name="CharacterBody2D_enemy" type="CharacterBody2D" parent="."]
-position = Vector2(501, 544)
+position = Vector2(171, 567)
 script = ExtResource("5_s4nsr")
 
 [node name="CollisionShape2D_enemy" type="CollisionShape2D" parent="CharacterBody2D_enemy"]
@@ -80,8 +89,15 @@ shape = SubResource("RectangleShape2D_hbc2u")
 [node name="Sprite2D_enemy" type="Sprite2D" parent="CharacterBody2D_enemy"]
 texture = ExtResource("6_5g1s2")
 
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="CharacterBody2D_enemy"]
+navigation_layers = 2
+avoidance_enabled = true
+max_speed = 90.0
+avoidance_layers = 2
+avoidance_mask = 2
+
 [node name="CharacterBody2D_enemy2" type="CharacterBody2D" parent="."]
-position = Vector2(70, 487)
+position = Vector2(376, 544)
 script = ExtResource("5_s4nsr")
 
 [node name="CollisionShape2D_enemy" type="CollisionShape2D" parent="CharacterBody2D_enemy2"]
@@ -90,8 +106,15 @@ shape = SubResource("RectangleShape2D_hbc2u")
 [node name="Sprite2D_enemy" type="Sprite2D" parent="CharacterBody2D_enemy2"]
 texture = ExtResource("6_5g1s2")
 
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="CharacterBody2D_enemy2"]
+navigation_layers = 2
+avoidance_enabled = true
+max_speed = 90.0
+avoidance_layers = 2
+avoidance_mask = 2
+
 [node name="CharacterBody2D_enemy3" type="CharacterBody2D" parent="."]
-position = Vector2(383, 478)
+position = Vector2(504, 545)
 script = ExtResource("5_s4nsr")
 
 [node name="CollisionShape2D_enemy" type="CollisionShape2D" parent="CharacterBody2D_enemy3"]
@@ -100,19 +123,16 @@ shape = SubResource("RectangleShape2D_hbc2u")
 [node name="Sprite2D_enemy" type="Sprite2D" parent="CharacterBody2D_enemy3"]
 texture = ExtResource("6_5g1s2")
 
-[node name="CharacterBody2D_enemy7" type="CharacterBody2D" parent="."]
-position = Vector2(258, 463)
-script = ExtResource("5_s4nsr")
-
-[node name="CollisionShape2D_enemy" type="CollisionShape2D" parent="CharacterBody2D_enemy7"]
-shape = SubResource("RectangleShape2D_hbc2u")
-
-[node name="Sprite2D_enemy" type="Sprite2D" parent="CharacterBody2D_enemy7"]
-texture = ExtResource("6_5g1s2")
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="CharacterBody2D_enemy3"]
+navigation_layers = 2
+avoidance_enabled = true
+max_speed = 90.0
+avoidance_layers = 2
+avoidance_mask = 2
 
 [node name="CharacterBody2D_enemy4" type="CharacterBody2D" parent="."]
-position = Vector2(408, 561)
-script = ExtResource("7_nlj1t")
+position = Vector2(164, 466)
+script = ExtResource("5_s4nsr")
 
 [node name="CollisionShape2D_enemy" type="CollisionShape2D" parent="CharacterBody2D_enemy4"]
 shape = SubResource("RectangleShape2D_hbc2u")
@@ -120,9 +140,16 @@ shape = SubResource("RectangleShape2D_hbc2u")
 [node name="Sprite2D_enemy" type="Sprite2D" parent="CharacterBody2D_enemy4"]
 texture = ExtResource("6_5g1s2")
 
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="CharacterBody2D_enemy4"]
+navigation_layers = 2
+avoidance_enabled = true
+max_speed = 90.0
+avoidance_layers = 2
+avoidance_mask = 2
+
 [node name="CharacterBody2D_enemy5" type="CharacterBody2D" parent="."]
-position = Vector2(160, 554)
-script = ExtResource("7_nlj1t")
+position = Vector2(25, 574)
+script = ExtResource("8_o5jjl")
 
 [node name="CollisionShape2D_enemy" type="CollisionShape2D" parent="CharacterBody2D_enemy5"]
 shape = SubResource("RectangleShape2D_hbc2u")
@@ -130,9 +157,16 @@ shape = SubResource("RectangleShape2D_hbc2u")
 [node name="Sprite2D_enemy" type="Sprite2D" parent="CharacterBody2D_enemy5"]
 texture = ExtResource("6_5g1s2")
 
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="CharacterBody2D_enemy5"]
+navigation_layers = 2
+avoidance_enabled = true
+max_speed = 90.0
+avoidance_layers = 2
+avoidance_mask = 2
+
 [node name="CharacterBody2D_enemy6" type="CharacterBody2D" parent="."]
-position = Vector2(50, 553)
-script = ExtResource("8_o5jjl")
+position = Vector2(403, 392)
+script = ExtResource("7_nlj1t")
 
 [node name="CollisionShape2D_enemy" type="CollisionShape2D" parent="CharacterBody2D_enemy6"]
 shape = SubResource("RectangleShape2D_hbc2u")
@@ -140,117 +174,194 @@ shape = SubResource("RectangleShape2D_hbc2u")
 [node name="Sprite2D_enemy" type="Sprite2D" parent="CharacterBody2D_enemy6"]
 texture = ExtResource("6_5g1s2")
 
-[node name="Walls" type="Node2D" parent="."]
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="CharacterBody2D_enemy6"]
+navigation_layers = 2
+avoidance_enabled = true
+max_speed = 95.0
+avoidance_layers = 2
+avoidance_mask = 2
 
-[node name="StaticBody2D_cornerWall" type="StaticBody2D" parent="Walls"]
+[node name="CharacterBody2D_enemy7" type="CharacterBody2D" parent="."]
+position = Vector2(189, 330)
+script = ExtResource("7_nlj1t")
+
+[node name="CollisionShape2D_enemy" type="CollisionShape2D" parent="CharacterBody2D_enemy7"]
+shape = SubResource("RectangleShape2D_hbc2u")
+
+[node name="Sprite2D_enemy" type="Sprite2D" parent="CharacterBody2D_enemy7"]
+texture = ExtResource("6_5g1s2")
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="CharacterBody2D_enemy7"]
+navigation_layers = 2
+avoidance_enabled = true
+avoidance_layers = 2
+avoidance_mask = 2
+
+[node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
+navigation_polygon = SubResource("NavigationPolygon_oe8jf")
+navigation_layers = 2
+
+[node name="StaticBody2D_wall" type="StaticBody2D" parent="NavigationRegion2D"]
+position = Vector2(280, 482)
+collision_mask = 2
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/StaticBody2D_wall"]
+polygon = PackedVector2Array(64, -8, 64, 8, -64, 8, -64, -8)
+
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/StaticBody2D_wall"]
+texture = ExtResource("13_qfgba")
+
+[node name="Walls" type="Node2D" parent="NavigationRegion2D"]
+
+[node name="StaticBody2D_cornerWall" type="StaticBody2D" parent="NavigationRegion2D/Walls"]
 position = Vector2(194, 386)
 rotation = 1.5708
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D_cornerWall"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/Walls/StaticBody2D_cornerWall"]
 polygon = PackedVector2Array(16, -16, 16, 0, 0, 0, 0, 16, -16, 16, -16, -16)
 
-[node name="Sprite2D" type="Sprite2D" parent="Walls/StaticBody2D_cornerWall"]
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/Walls/StaticBody2D_cornerWall"]
 texture = ExtResource("11_afljl")
 
-[node name="StaticBody2D_cornerWall2" type="StaticBody2D" parent="Walls"]
-position = Vector2(350, 281)
-rotation = 1.5708
+[node name="StaticBody2D_cornerWall2" type="StaticBody2D" parent="NavigationRegion2D/Walls"]
+position = Vector2(446, 541)
+rotation = 3.14159
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D_cornerWall2"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/Walls/StaticBody2D_cornerWall2"]
 polygon = PackedVector2Array(16, -16, 16, 0, 0, 0, 0, 16, -16, 16, -16, -16)
 
-[node name="Sprite2D" type="Sprite2D" parent="Walls/StaticBody2D_cornerWall2"]
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/Walls/StaticBody2D_cornerWall2"]
 texture = ExtResource("11_afljl")
 
-[node name="StaticBody2D_cornerWall3" type="StaticBody2D" parent="Walls"]
-position = Vector2(131, 257)
+[node name="StaticBody2D_cornerWall3" type="StaticBody2D" parent="NavigationRegion2D/Walls"]
+position = Vector2(344, 458)
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D_cornerWall3"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/Walls/StaticBody2D_cornerWall3"]
 polygon = PackedVector2Array(16, -16, 16, 0, 0, 0, 0, 16, -16, 16, -16, -16)
 
-[node name="Sprite2D" type="Sprite2D" parent="Walls/StaticBody2D_cornerWall3"]
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/Walls/StaticBody2D_cornerWall3"]
 texture = ExtResource("11_afljl")
 
-[node name="StaticBody2D_shortWall" type="StaticBody2D" parent="Walls"]
+[node name="StaticBody2D_shortWall" type="StaticBody2D" parent="NavigationRegion2D/Walls"]
 position = Vector2(360, 349)
 rotation = 1.5708
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D_shortWall"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/Walls/StaticBody2D_shortWall"]
 polygon = PackedVector2Array(16, -8, 16, 8, -16, 8, -16, -8)
 
-[node name="Sprite2D" type="Sprite2D" parent="Walls/StaticBody2D_shortWall"]
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/Walls/StaticBody2D_shortWall"]
 texture = ExtResource("12_46ukl")
 
-[node name="StaticBody2D_shortWall2" type="StaticBody2D" parent="Walls"]
-position = Vector2(259, 299)
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D_shortWall2"]
-polygon = PackedVector2Array(16, -8, 16, 8, -16, 8, -16, -8)
-
-[node name="Sprite2D" type="Sprite2D" parent="Walls/StaticBody2D_shortWall2"]
-texture = ExtResource("12_46ukl")
-
-[node name="StaticBody2D_shortWall3" type="StaticBody2D" parent="Walls"]
-position = Vector2(293, 215)
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D_shortWall3"]
-polygon = PackedVector2Array(16, -8, 16, 8, -16, 8, -16, -8)
-
-[node name="Sprite2D" type="Sprite2D" parent="Walls/StaticBody2D_shortWall3"]
-texture = ExtResource("12_46ukl")
-
-[node name="StaticBody2D_wall" type="StaticBody2D" parent="Walls"]
-position = Vector2(305, 432)
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D_wall"]
-polygon = PackedVector2Array(64, -8, 64, 8, -64, 8, -64, -8)
-
-[node name="Sprite2D" type="Sprite2D" parent="Walls/StaticBody2D_wall"]
-texture = ExtResource("13_qfgba")
-
-[node name="StaticBody2D_wall3" type="StaticBody2D" parent="Walls"]
-position = Vector2(412, 215)
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D_wall3"]
-polygon = PackedVector2Array(64, -8, 64, 8, -64, 8, -64, -8)
-
-[node name="Sprite2D" type="Sprite2D" parent="Walls/StaticBody2D_wall3"]
-texture = ExtResource("13_qfgba")
-
-[node name="StaticBody2D_wall4" type="StaticBody2D" parent="Walls"]
-position = Vector2(180, 215)
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D_wall4"]
-polygon = PackedVector2Array(64, -8, 64, 8, -64, 8, -64, -8)
-
-[node name="Sprite2D" type="Sprite2D" parent="Walls/StaticBody2D_wall4"]
-texture = ExtResource("13_qfgba")
-
-[node name="StaticBody2D_wall2" type="StaticBody2D" parent="Walls"]
-position = Vector2(482, 495)
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D_wall2"]
-polygon = PackedVector2Array(64, -8, 64, 8, -64, 8, -64, -8)
-
-[node name="Sprite2D" type="Sprite2D" parent="Walls/StaticBody2D_wall2"]
-texture = ExtResource("13_qfgba")
-
-[node name="StaticBody2D_wall5" type="StaticBody2D" parent="Walls"]
-position = Vector2(120, 369)
+[node name="StaticBody2D_shortWall4" type="StaticBody2D" parent="NavigationRegion2D/Walls"]
+position = Vector2(95, 543)
 rotation = 1.5708
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D_wall5"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/Walls/StaticBody2D_shortWall4"]
+polygon = PackedVector2Array(16, -8, 16, 8, -16, 8, -16, -8)
+
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/Walls/StaticBody2D_shortWall4"]
+texture = ExtResource("12_46ukl")
+
+[node name="StaticBody2D_shortWall5" type="StaticBody2D" parent="NavigationRegion2D/Walls"]
+position = Vector2(146, 84)
+rotation = -0.785398
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/Walls/StaticBody2D_shortWall5"]
+polygon = PackedVector2Array(16, -8, 16, 8, -16, 8, -16, -8)
+
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/Walls/StaticBody2D_shortWall5"]
+texture = ExtResource("12_46ukl")
+
+[node name="StaticBody2D_shortWall6" type="StaticBody2D" parent="NavigationRegion2D/Walls"]
+position = Vector2(413, 82)
+rotation = 0.785398
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/Walls/StaticBody2D_shortWall6"]
+polygon = PackedVector2Array(16, -8, 16, 8, -16, 8, -16, -8)
+
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/Walls/StaticBody2D_shortWall6"]
+texture = ExtResource("12_46ukl")
+
+[node name="StaticBody2D_shortWall2" type="StaticBody2D" parent="NavigationRegion2D/Walls"]
+position = Vector2(407, 282)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/Walls/StaticBody2D_shortWall2"]
+polygon = PackedVector2Array(16, -8, 16, 8, -16, 8, -16, -8)
+
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/Walls/StaticBody2D_shortWall2"]
+texture = ExtResource("12_46ukl")
+
+[node name="StaticBody2D_shortWall3" type="StaticBody2D" parent="NavigationRegion2D/Walls"]
+position = Vector2(88, 214)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/Walls/StaticBody2D_shortWall3"]
+polygon = PackedVector2Array(16, -8, 16, 8, -16, 8, -16, -8)
+
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/Walls/StaticBody2D_shortWall3"]
+texture = ExtResource("12_46ukl")
+
+[node name="StaticBody2D_wall3" type="StaticBody2D" parent="NavigationRegion2D/Walls"]
+position = Vector2(331, 279)
+rotation = 2.18166
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/Walls/StaticBody2D_wall3"]
 polygon = PackedVector2Array(64, -8, 64, 8, -64, 8, -64, -8)
 
-[node name="Sprite2D" type="Sprite2D" parent="Walls/StaticBody2D_wall5"]
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/Walls/StaticBody2D_wall3"]
 texture = ExtResource("13_qfgba")
 
-[node name="StaticBody2D_wall6" type="StaticBody2D" parent="Walls"]
+[node name="StaticBody2D_wall4" type="StaticBody2D" parent="NavigationRegion2D/Walls"]
+position = Vector2(204, 266)
+rotation = 0.785398
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/Walls/StaticBody2D_wall4"]
+polygon = PackedVector2Array(64, -8, 64, 8, -64, 8, -64, -8)
+
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/Walls/StaticBody2D_wall4"]
+texture = ExtResource("13_qfgba")
+
+[node name="StaticBody2D_wall2" type="StaticBody2D" parent="NavigationRegion2D/Walls"]
+position = Vector2(483, 455)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/Walls/StaticBody2D_wall2"]
+polygon = PackedVector2Array(64, -8, 64, 8, -64, 8, -64, -8)
+
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/Walls/StaticBody2D_wall2"]
+texture = ExtResource("13_qfgba")
+
+[node name="StaticBody2D_wall5" type="StaticBody2D" parent="NavigationRegion2D/Walls"]
+position = Vector2(107, 419)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/Walls/StaticBody2D_wall5"]
+polygon = PackedVector2Array(64, -8, 64, 8, -64, 8, -64, -8)
+
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/Walls/StaticBody2D_wall5"]
+texture = ExtResource("13_qfgba")
+
+[node name="StaticBody2D_wall6" type="StaticBody2D" parent="NavigationRegion2D/Walls"]
 position = Vector2(467, 321)
 rotation = 1.5708
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D_wall6"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/Walls/StaticBody2D_wall6"]
 polygon = PackedVector2Array(64, -8, 64, 8, -64, 8, -64, -8)
 
-[node name="Sprite2D" type="Sprite2D" parent="Walls/StaticBody2D_wall6"]
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/Walls/StaticBody2D_wall6"]
 texture = ExtResource("13_qfgba")
+
+[node name="StaticBody2D_cornerWall3" type="StaticBody2D" parent="NavigationRegion2D"]
+position = Vector2(67, 322)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/StaticBody2D_cornerWall3"]
+polygon = PackedVector2Array(16, -16, 16, 0, 0, 0, 0, 16, -16, 16, -16, -16)
+
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/StaticBody2D_cornerWall3"]
+texture = ExtResource("11_afljl")
+
+[node name="StaticBody2D_cornerWall4" type="StaticBody2D" parent="NavigationRegion2D"]
+position = Vector2(274, 163)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D/StaticBody2D_cornerWall4"]
+polygon = PackedVector2Array(16, -16, 16, 0, 0, 0, 0, 16, -16, 16, -16, -16)
+
+[node name="Sprite2D" type="Sprite2D" parent="NavigationRegion2D/StaticBody2D_cornerWall4"]
+texture = ExtResource("11_afljl")

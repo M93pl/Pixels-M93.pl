@@ -3,16 +3,20 @@ using System;
 
 public partial class CharacterBody2dEnemy9_3 : CharacterBody2D
 {
-    private float speed = 55;
+    private float speed = 95;
     private CharacterBody2dPlayer9 playerBody;
     private Vector2 playerPosition;
     private bool playerOn;
+    private NavigationAgent2D agent;
 
     public override void _Ready()
     {
         base._Ready();
         playerBody = GetNode<CharacterBody2dPlayer9>("../CharacterBody2D_player");
-
+        agent = GetNode<NavigationAgent2D>("NavigationAgent2D");
+        agent.PathDesiredDistance = 4;
+        agent.TargetDesiredDistance = 4;
+        agent.Velocity = Vector2.Zero;
     }
 
     public override void _PhysicsProcess(double delta)
@@ -28,52 +32,26 @@ public partial class CharacterBody2dEnemy9_3 : CharacterBody2D
 
         if (playerOn)
         {
-            Velocity = playerSearch() * speed;
+            agent.TargetPosition = playerBody.GlobalPosition;
         }
         else
         {
-            Velocity = new Vector2(0, 0);
+            agent.TargetPosition = GlobalPosition;
         }
 
-  
-        
+        Vector2 desiredVelocity = Vector2.Zero;
+
+        if (!agent.IsNavigationFinished())
+        {
+            Vector2 nextPathPos = agent.GetNextPathPosition();
+            desiredVelocity = (nextPathPos - GlobalPosition).Normalized() * speed;
+        }
+
+        agent.Velocity = desiredVelocity;
+
+        Velocity = agent.Velocity;
 
         MoveAndSlide();
 
-
     }
-
-    private Vector2 playerSearch()
-    {
-        Vector2 p = playerPosition;
-        Vector2 newMove = new Vector2(0, 0);
-
-        if (p.X > Position.X)
-        {
-            newMove.X += 1;
-        }
-        if (p.X < Position.X)
-        {
-            newMove.X -= 1;
-        }
-        if (p.X == Position.X)
-        {
-            newMove.X = 0;
-        }
-        if (p.Y > Position.Y)
-        {
-            newMove.Y += 1;
-        }
-        if (p.Y < Position.Y)
-        {
-            newMove.Y -= 1;
-        }
-        if (p.Y == Position.Y)
-        {
-            newMove.Y = 0;
-        }
-
-        return newMove;
-    }
-
 }

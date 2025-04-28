@@ -71,7 +71,7 @@ width = 1.0
 default_color = Color(0.92549, 1, 0.792157, 1)
 
 [node name="CharacterBody2D_enemy" type="CharacterBody2D" parent="."]
-position = Vector2(304, 480)
+position = Vector2(142, 553)
 script = ExtResource("5_s4nsr")
 
 [node name="CollisionShape2D_enemy" type="CollisionShape2D" parent="CharacterBody2D_enemy"]
@@ -81,7 +81,7 @@ shape = SubResource("RectangleShape2D_hbc2u")
 texture = ExtResource("6_5g1s2")
 
 [node name="CharacterBody2D_enemy4" type="CharacterBody2D" parent="."]
-position = Vector2(296, 544)
+position = Vector2(486, 441)
 script = ExtResource("7_nlj1t")
 
 [node name="CollisionShape2D_enemy" type="CollisionShape2D" parent="CharacterBody2D_enemy4"]
@@ -91,7 +91,7 @@ shape = SubResource("RectangleShape2D_hbc2u")
 texture = ExtResource("6_5g1s2")
 
 [node name="CharacterBody2D_enemy5" type="CharacterBody2D" parent="."]
-position = Vector2(243, 549)
+position = Vector2(63, 436)
 script = ExtResource("7_nlj1t")
 
 [node name="CollisionShape2D_enemy" type="CollisionShape2D" parent="CharacterBody2D_enemy5"]
@@ -142,7 +142,7 @@ polygon = PackedVector2Array(16, -16, 16, 0, 0, 0, 0, 16, -16, 16, -16, -16)
 texture = ExtResource("11_afljl")
 
 [node name="StaticBody2D_shortWall" type="StaticBody2D" parent="Walls"]
-position = Vector2(360, 349)
+position = Vector2(370, 367)
 rotation = 1.5708
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D_shortWall"]
@@ -152,7 +152,7 @@ polygon = PackedVector2Array(16, -8, 16, 8, -16, 8, -16, -8)
 texture = ExtResource("12_46ukl")
 
 [node name="StaticBody2D_shortWall2" type="StaticBody2D" parent="Walls"]
-position = Vector2(259, 299)
+position = Vector2(223, 290)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D_shortWall2"]
 polygon = PackedVector2Array(16, -8, 16, 8, -16, 8, -16, -8)

@@ -1,7 +1,6 @@
 C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\bin\ExportRelease\win-x64\01_Pixels.deps.json
 C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\bin\ExportRelease\win-x64\01_Pixels.runtimeconfig.json
 C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\bin\ExportRelease\win-x64\01_Pixels.dll
-C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\bin\ExportRelease\win-x64\01_Pixels.pdb
 C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\bin\ExportRelease\win-x64\GodotSharp.dll
 C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\bin\ExportRelease\win-x64\Microsoft.CSharp.dll
 C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\bin\ExportRelease\win-x64\Microsoft.VisualBasic.Core.dll
@@ -190,10 +189,8 @@ C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\obj\Export
 C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\obj\ExportRelease\win-x64\01_Pixels.AssemblyInfoInputs.cache
 C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\obj\ExportRelease\win-x64\01_Pixels.AssemblyInfo.cs
 C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\obj\ExportRelease\win-x64\01_Pixels.csproj.CoreCompileInputs.cache
-C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\obj\ExportRelease\win-x64\01_Pixels.sourcelink.json
 C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\obj\ExportRelease\win-x64\01_Pixels.csproj.Up2Date
 C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\obj\ExportRelease\win-x64\01_Pixels.dll
 C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\obj\ExportRelease\win-x64\refint\01_Pixels.dll
-C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\obj\ExportRelease\win-x64\01_Pixels.pdb
 C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\obj\ExportRelease\win-x64\01_Pixels.genruntimeconfig.cache
 C:\Users\m1993\Desktop\Programowanie\Godot\01_Pixels\.godot\mono\temp\obj\ExportRelease\win-x64\ref\01_Pixels.dll
