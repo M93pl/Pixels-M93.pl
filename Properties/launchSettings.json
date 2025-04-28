@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "01_Pixels": {
+      "commandName": "Project"
+    },
+    "Pixels": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\m1993\\Desktop\\Programowanie\\Godot\\Godot_v4.4.1-stable_mono_win64\\Godot_v4.4.1-stable_mono_win64.exe",
+      "commandLineArgs": "--path.--verbose",
+      "workingDirectory": ".",
+      "nativeDebugging": true
+    }
+  }
+}

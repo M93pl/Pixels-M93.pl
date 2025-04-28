@@ -1,0 +1,68 @@
+[gd_scene load_steps=12 format=3 uid="uid://b8jasci58jvt4"]
+
+[ext_resource type="Script" uid="uid://wmxpdnpr7jo6" path="res://Levels/02/Level2.cs" id="1_lmyl5"]
+[ext_resource type="Texture2D" uid="uid://gexl32gjfne5" path="res://Textures/background.png" id="2_mlbie"]
+[ext_resource type="Script" uid="uid://jn8gtrw1tt5" path="res://Levels/02/CharacterBody2dPlayer2.cs" id="3_s3sxq"]
+[ext_resource type="Texture2D" uid="uid://3tdeunlxxg1u" path="res://Textures/player.png" id="4_5py54"]
+[ext_resource type="Script" uid="uid://cwtsgp4jqh1r3" path="res://Levels/02/CharacterBody2dEnemy2.cs" id="5_1bjei"]
+[ext_resource type="Texture2D" uid="uid://kuysxvcxxhgf" path="res://Textures/enemy.png" id="6_5g1s2"]
+[ext_resource type="Texture2D" uid="uid://vu277y31c5hb" path="res://Textures/exit.png" id="7_mlbie"]
+[ext_resource type="AudioStream" uid="uid://b2uy3uk0o5ld0" path="res://Audio/begin.wav" id="8_hce00"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5crlr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hbc2u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s3sxq"]
+size = Vector2(34, 34)
+
+[node name="GameScene" type="Node2D"]
+script = ExtResource("1_lmyl5")
+
+[node name="Sprite2D_background" type="Sprite2D" parent="."]
+position = Vector2(300, 300)
+texture = ExtResource("2_mlbie")
+
+[node name="CharacterBody2D_player" type="CharacterBody2D" parent="."]
+position = Vector2(300, 20)
+script = ExtResource("3_s3sxq")
+
+[node name="CollisionShape2D_player" type="CollisionShape2D" parent="CharacterBody2D_player"]
+shape = SubResource("RectangleShape2D_5crlr")
+
+[node name="Sprite2D_player" type="Sprite2D" parent="CharacterBody2D_player"]
+texture = ExtResource("4_5py54")
+
+[node name="CharacterBody2D_enemy" type="CharacterBody2D" parent="."]
+position = Vector2(65, 249)
+script = ExtResource("5_1bjei")
+
+[node name="CollisionShape2D_enemy" type="CollisionShape2D" parent="CharacterBody2D_enemy"]
+shape = SubResource("RectangleShape2D_hbc2u")
+
+[node name="Sprite2D_enemy" type="Sprite2D" parent="CharacterBody2D_enemy"]
+texture = ExtResource("6_5g1s2")
+
+[node name="CharacterBody2D_exit" type="CharacterBody2D" parent="."]
+position = Vector2(495, 577)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D_exit"]
+shape = SubResource("RectangleShape2D_s3sxq")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D_exit"]
+texture = ExtResource("7_mlbie")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+build_mode = 1
+polygon = PackedVector2Array(0, 0, 0, 600, 600, 600, 600, 0)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_hce00")
+autoplay = true
+
+[node name="Line2D" type="Line2D" parent="."]
+points = PackedVector2Array(600, 50, 0, 50)
+width = 1.0
+default_color = Color(0.92549, 1, 0.792157, 1)

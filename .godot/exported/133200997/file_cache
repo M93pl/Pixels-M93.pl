@@ -1,0 +1,12 @@
+res://Levels/01/Level1.tscn::c85bc4144f4ce35222a1b5c50001cccd::1745701253::res://.godot/exported/133200997/export-cfebc42fbf228ca79fd7edc141816c0d-Level1.scn
+res://Levels/02/Level2.tscn::9d8cd1383baad528225f424ac602c34d::1745701253::res://.godot/exported/133200997/export-cb3cfbbe5e81710339ff6ae8edadc17d-Level2.scn
+res://Levels/03/Level3.tscn::9a0ba0d8341323d81dea687ec6cf5f5c::1745701253::res://.godot/exported/133200997/export-e9a7823fbc777e46f7b457b4183a05b6-Level3.scn
+res://Levels/04/Level4.tscn::5d8b7225a2d36027e2176c1cf90133fb::1745701252::res://.godot/exported/133200997/export-ab2433d770a4d15ecc54458b236c1680-Level4.scn
+res://Levels/05/Level5.tscn::442332604d4f2b9a8a797ae40cd49ee0::1745701252::res://.godot/exported/133200997/export-d19b79d0e6713a37fba368c2d336893a-Level5.scn
+res://default_bus_layout.tres::2d4b57cd45f6600ed6e44e1a3920b1bd::1745663705::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
+res://GameOver.tscn::0abf5ec9597087d1612aea0fd0c544da::1745701253::res://.godot/exported/133200997/export-76a474a8c959e1db950b657529b7e98a-GameOver.scn
+res://GameWin.tscn::5c4859df896eaa4088144f132ee6788a::1745678597::res://.godot/exported/133200997/export-e9d18f775c44ef477bea6f88934da65e-GameWin.scn
+res://HpOver.tscn::a76aafbe39856d9d8c5ae9e2e3bbedca::1745678597::res://.godot/exported/133200997/export-5dccdc7f22d75bf0e8716670c3cb4759-HpOver.scn
+res://LevelBreak.tscn::8360b5237169a1fe0a2b3c95fc2fda4b::1745701252::res://.godot/exported/133200997/export-6a2308f4c4748b108eb86e9964ee469f-LevelBreak.scn
+res://TitleScreen.tscn::33c056c5f1a497354225ee4408541a12::1745701252::res://.godot/exported/133200997/export-8ab7957449737a12d6720cc866cda2cc-TitleScreen.scn
+res://Tutorial.tscn::c385167298c1222592576be55469647e::1745701252::res://.godot/exported/133200997/export-3c988a37eda1be30738aa4ada50fcd4d-Tutorial.scn

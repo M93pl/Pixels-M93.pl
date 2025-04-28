@@ -1,0 +1,105 @@
+[gd_scene load_steps=24 format=3 uid="uid://dk0ysacn0qob0"]
+
+[ext_resource type="Script" uid="uid://p4k1n6yurm5a" path="res://GameWin.cs" id="1_42jfn"]
+[ext_resource type="Texture2D" uid="uid://ccb7ahnqt17ts" path="res://Textures/win/win1.png" id="1_xmu26"]
+[ext_resource type="Texture2D" uid="uid://cj36jx3h3485d" path="res://Textures/win/win2.png" id="2_42jfn"]
+[ext_resource type="Texture2D" uid="uid://bux423bw2aii6" path="res://Textures/win/win3.png" id="3_5e71p"]
+[ext_resource type="Texture2D" uid="uid://d35uxck0wbmnh" path="res://Textures/win/win4.png" id="4_im0dl"]
+[ext_resource type="Texture2D" uid="uid://ducap5n34nybm" path="res://Textures/win/win5.png" id="5_8rqhn"]
+[ext_resource type="Texture2D" uid="uid://buuj44ftdrehj" path="res://Textures/win/win6.png" id="6_w7nk0"]
+[ext_resource type="Texture2D" uid="uid://7fdghm628gu5" path="res://Textures/win/win7.png" id="7_tirbk"]
+[ext_resource type="Texture2D" uid="uid://dcr0jongryuja" path="res://Textures/win/win8.png" id="8_pvlmg"]
+[ext_resource type="Texture2D" uid="uid://p0mqx7mf5xb6" path="res://Textures/win/win9.png" id="9_ae5t7"]
+[ext_resource type="Texture2D" uid="uid://b34r56ndlbir2" path="res://Textures/win/win10.png" id="10_eh7co"]
+[ext_resource type="Texture2D" uid="uid://lxtlhh573bwx" path="res://Textures/win/win11.png" id="11_rkj3m"]
+[ext_resource type="Texture2D" uid="uid://cqiaxlo1p7v34" path="res://Textures/win/win12.png" id="12_qw0c8"]
+[ext_resource type="Texture2D" uid="uid://b60rryoud2q5" path="res://Textures/win/win13.png" id="13_ayw6c"]
+[ext_resource type="Texture2D" uid="uid://b3incg7kam1lu" path="res://Textures/win/win14.png" id="14_wippl"]
+[ext_resource type="Texture2D" uid="uid://vbx0jdv78f0d" path="res://Textures/win/win15.png" id="15_aac88"]
+[ext_resource type="Texture2D" uid="uid://laxteddoi1kl" path="res://Textures/win/win16.png" id="16_l34td"]
+[ext_resource type="Texture2D" uid="uid://cqtltqpdvf3oy" path="res://Textures/win/win17.png" id="17_e52yh"]
+[ext_resource type="Texture2D" uid="uid://b5104vtc7j4rc" path="res://Textures/win/win18.png" id="18_7xkmb"]
+[ext_resource type="Texture2D" uid="uid://bspk0dsm7626p" path="res://Textures/win/win19.png" id="19_syfpj"]
+[ext_resource type="Texture2D" uid="uid://dnbqct2ar33yj" path="res://Textures/win/win20.png" id="20_nplv3"]
+[ext_resource type="AudioStream" uid="uid://qlkuq2xj87tf" path="res://Audio/winEnd.wav" id="22_5e71p"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hd04a"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xmu26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_42jfn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_5e71p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_im0dl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_8rqhn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_w7nk0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_tirbk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_pvlmg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ae5t7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_eh7co")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_rkj3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_qw0c8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ayw6c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_wippl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_aac88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_l34td")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_e52yh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_7xkmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_syfpj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_nplv3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="GameWin" type="Node2D"]
+position = Vector2(300, 300)
+script = ExtResource("1_42jfn")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_hd04a")
+autoplay = "default"
+frame_progress = 0.929093
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("22_5e71p")
+autoplay = true

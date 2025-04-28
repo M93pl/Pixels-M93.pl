@@ -1,0 +1,80 @@
+[gd_scene load_steps=4 format=3 uid="uid://c0n25f15grftl"]
+
+[ext_resource type="Texture2D" uid="uid://gexl32gjfne5" path="res://Textures/background.png" id="1_l5gn4"]
+[ext_resource type="Script" uid="uid://db2146lqy072k" path="res://LevelBreak.cs" id="1_y2who"]
+[ext_resource type="AudioStream" uid="uid://bcbo3kxe33uun" path="res://Audio/win.wav" id="3_l6hxb"]
+
+[node name="LevelBreak" type="Node2D"]
+script = ExtResource("1_y2who")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(300, 300)
+texture = ExtResource("1_l5gn4")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 17.0
+offset_top = 127.0
+offset_right = 194.0
+offset_bottom = 219.0
+scale = Vector2(3.12126, 3.12126)
+bbcode_enabled = true
+text = "[color=#2aa034]Good job!
+Press SPACE to start
+level "
+fit_content = true
+autowrap_mode = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RichTextLabel_level" type="RichTextLabel" parent="."]
+offset_left = 103.0
+offset_top = 199.0
+offset_right = 280.0
+offset_bottom = 291.0
+scale = Vector2(3.12126, 3.12126)
+text = "1"
+fit_content = true
+autowrap_mode = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+offset_left = 10.0
+offset_top = 316.0
+offset_right = 197.0
+offset_bottom = 408.0
+scale = Vector2(3.12126, 3.12126)
+text = "Press ESCAPE to
+close the game..."
+fit_content = true
+autowrap_mode = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="."]
+offset_left = 36.0
+offset_top = 4.0
+offset_right = 326.0
+offset_bottom = 96.0
+scale = Vector2(1.8, 1.8)
+theme_override_font_sizes/normal_font_size = 15
+bbcode_enabled = true
+text = "You gain 1 chance.
+You now have    chances."
+fit_content = true
+autowrap_mode = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RichTextLabel_actual" type="RichTextLabel" parent="."]
+offset_left = 322.0
+offset_top = 87.0
+offset_right = 362.0
+offset_bottom = 127.0
+theme_override_font_sizes/normal_font_size = 29
+text = "1"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_l6hxb")
+volume_db = -20.0
+autoplay = true
