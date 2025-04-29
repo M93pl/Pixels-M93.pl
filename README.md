@@ -2,7 +2,12 @@
 ## C# / Godot
 ### Prosta gra stworzona w Godot przy użyciu C#
 Pierwszy w pełni samodzielny projekt wykonany na silniku Godot przy użyciu skryptów napisanych w języku C#. Kod pisany w Visual Studio 2022, wersja Godot 4.1. Grafiki stworzone w Aseprite, muzyka - Audacity, efekty dźwiękowe - Bfxr.
-<br>ver. 1.3
+<br>ver. 1.3<br>
+
+Skompilowany program można pobrać z:<br>
+https://m93.pl/Upload/Files/InstallPixels.exe<br>
+lub z mojego repozytorium publicznego:<br>
+https://github.com/M93pl/----_P_U_B_L_I_C_----<br>
 
 <br><br>
 
